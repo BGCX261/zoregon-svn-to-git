@@ -1,0 +1,37 @@
+#summary Instructions for using the River Creation Tool
+#labels Phase-Implementation,Tools
+
+= Instructions =
+
+
+
+irst, drag "WaterToolScript.cs" onto your terrain object.
+
+*Note: The terrain object's position needs to be at (0, 0, 0). If you need to you can create the river at this position and then move the terrain and river mesh back to the original, offset, location.
+
+*IMPORTANT TIP: After finalizing, delete the script attached to your new river game object to avoid accidentally deleting your mesh. If you close out of Unity (thus deleting local variables), open it back up and try to edit your finalized river, it will be deleted.
+
+The River Tool has one basic function.
+
+New River - Creates a new river object
+Click "New River" to create a new river Game Object - 'River' - and select it.
+Click "Add River Node". Give the editor window focus (right click) and find an appropriate node position with your mouse. Press 'r' on your keyboard to add a node at that location.
+Continue adding nodes and changing parameters until you are satisfied with your river.
+Click "Finalize River" to finish the river and deform the terrain. *You cannot add nodes after finalizing*
+Click "Smooth River" to smooth the terrain at the river's edge to your liking. This is available after you finalize.
+If the river's edge is protruding, click "Close River" to correct. This is available after you finalize.
+Parameters
+
+The River Tool has four parameters that are updated procedurally.
+
+"Riverbed Texture Prototype" - This is the texture prototype (from the terrain's texture list) to use for the riverbed. *Remember, starts at 0*
+"River Width" - This is the width of the river.
+"River Depth" - This is the depth at which the river is dug. *note: The terrain will not deform below height 0
+"Mesh Smooth" - This is the number of steps used in the spline calculations. Change this to suit your triangle/UV needs.
+Tips
+
+To create a nice looking river, you should try to choose nodes that avoid uphill regions. The tool will force the river downhill and create valleys, but big valleys don't look very good.
+Finalize the river with a high "River Smooth" for the best results.
+Use Unity's built-in terrain tools to Raise/Lower terrain to adjust and smooth further.
+If you are creating a river on rocky, jagged terrain, set a deeper depth to get good definition.
+If you are getting bare spots in your river, set a higher depth

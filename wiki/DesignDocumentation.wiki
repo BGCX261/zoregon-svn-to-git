@@ -1,0 +1,18 @@
+#summary Basic Design Documentation
+#labels Phase-Design,documention
+
+==Introduction==
+Dispatched as a scout to investigate the newly discovered world named Zoregon. Upon entering the atmosphere your ship suffers a mysterious mechanical failure. Now stranded with next to no hope of rescue you are forced to explore your surrounding in hopes of discovering the secrets of Zoregon and finding a way to return home.
+==Character Bios==
+The Explorer
+This is you. You're stranded on an alien planet , and as a scout you are specially trained for exploration. Good Luck getting home.
+G.R.E.T.A.
+Greta is your shipboard A.I., and the only thing that could be salvaged from the wreckage of your ship. She now resides in the computer system of your environment suit, and can analyze samples taken from the world and offer advice.
+The Trapped One
+The Trapped One is a mysterious being, that appears to be the only other sentient creature on the planet. Trapped in the ruins of a nearby temple He claims to be able to help you escape if you can just release him.
+==Plot==
+Your ship crash lands on Zoregon, and you are forced to explore the area surrounding your crash site in hopes of accomplishing your mission and finding a way home. Near your ship you stumble upon the ruins of a great Temple where you discover some of the history of the people who inhabited this world in the past. There you also have your first contact with the Trapped One. The Trapped One tells you that he can return you to your home if you can free him.  
+ 
+ 
+ 
+ 
